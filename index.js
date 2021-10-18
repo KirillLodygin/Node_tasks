@@ -22,9 +22,9 @@ async function actualCallAnswer() {
     const actualCall = new Date();
     const lastCall = date.parse(response, 'YYYY/MM/DD HH:mm:ss');
 
-    const days = Math.floor(date.subtract(actualCall, lastCall).toDays() % 24);
+    const days = Math.floor(date.subtract(actualCall, lastCall).toDays());
     const hours = Math.floor(
-      date.subtract(actualCall, lastCall).toHours() % 60,
+      date.subtract(actualCall, lastCall).toHours() % 24,
     );
     const minutes = Math.floor(
       date.subtract(actualCall, lastCall).toMinutes() % 60,
