@@ -18,6 +18,7 @@
   "homepage": "https://github.com/KirillLodygin/Node_tasks#readme",
   "devDependencies": {
     "date-and-time": "^2.0.1",
+    "optimist": "^0.6.1",
     "prettier": "^2.4.1"
   }
 }
