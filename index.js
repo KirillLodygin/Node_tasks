@@ -1,4 +1,4 @@
-require('dotenv').config();
+//require('dotenv').config();
 const average = require('image-average-color');
 const fs = require('fs');
 
